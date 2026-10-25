@@ -1,0 +1,92 @@
+*body{
+    display: contents;
+}
+
+@font-face {
+    font-family: Myoutfit;
+    src: url(qr-code-component-main/qr-code-component-main/Outfit-VariableFont_wght.ttf);
+}
+
+@media screen and (min-width: 375px){
+
+
+.border{
+    height: 100ch;
+    width: 100%;
+    background: linear-gradient( hsl(212, 45%, 89%), hsl(216, 15%, 48%), hsl(218, 44%, 22%));
+    z-index: 0;
+}
+
+
+#border-white{
+    height: 352px;
+    width: 250px;
+    border-radius: 5%;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    left:40%;
+    z-index: 1;
+    background-color: white;
+}
+#text-title{
+    font-family: Myoutfit;
+    font-size: 85%;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    align-items: center;
+    top: 270px;
+    left: 45px;
+    right: 10px;
+    bottom: 100px;
+}
+
+
+
+/* #image-qr{
+    height: 220px;
+    width: 250px;
+    border-radius: 5%;
+    position: relative;
+    top: 10px;
+    left:10px;
+    right: 10px;
+    bottom: 152px;
+} */
+
+.qr-code{
+    height: 220px;
+    width: 230px;
+    border-radius: 5%;
+    position: relative;
+    top: 1px;
+    left:10px;
+    right: 10px;
+    bottom: 152px;
+}
+
+img{
+    height: 220px;
+    width: 210px;
+    border-radius: 5%;
+    position: relative;
+    top: 1px;
+    left:10px;
+    right: 10px;
+    bottom: 152px;
+}
+
+#text-border{
+    font-family: Myoutfit;
+    color: gray;
+    font-size: 55%;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    align-items: center;
+    left: 18%;
+    top: 50px;
+}
+
+}
